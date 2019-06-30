@@ -1,0 +1,300 @@
+.main {
+	width: 980px;
+	height: 455px;
+	margin-left: 219px;
+	margin-top: 10px;
+}
+.focus {
+	position: relative;
+	width: 720px;
+	height: 455px;
+	background-color: purple;
+}
+.arrow-l, 
+.arrow-r {
+	position: absolute;
+	top: 50%;
+	/*left: 0;*/
+	width: 24px;
+	height: 40px;
+	margin-top: -20px;
+	background-color: rgba( 0, 0, 0, .3);
+	text-align: center;
+	line-height: 40px;
+	color: #fff;
+	font-family: 'simsun';
+	font-weight: bold;
+	font-size: 18px;
+}
+.arrow-r {
+	right: 0;
+}
+.circle {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+.circle li {
+	float: left;
+	width: 8px;
+	height: 8px;
+	margin: 0 3px;
+	border: 2px solid rgba( 255, 255, 255, .5);
+	border-radius: 50%;
+}
+.current {
+	background-color: #fff;
+}
+.newsflash {
+	width: 250px;
+	height: 455px;
+}
+.news {
+	height: 163px;
+	border: 1px solid #ccc;
+}
+.news-hd {
+	height: 32px;
+	padding: 0 15px;
+	border-bottom: 1px dotted #ccc;
+	line-height: 32px;
+	font-size: 14px;
+}
+.news-hd a {
+	float: right;
+	font-size: 12px;}
+.news-hd a i {
+	font-family: 'simsun';
+}
+.news-bd {
+	padding: 10px 0 0 15px;
+}
+.news-bd li {
+	height: 23px;
+}
+.lifeservice {
+	height: 208px;
+	border: 1px solid #ccc;
+	border-top: none;
+	overflow: hidden;
+}
+.lifeservice ul {
+	width: 252px;
+}
+.lifeservice li {
+	position: relative;
+	float: left;
+	width: 62px;
+	height: 70px;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.lifeservice li a {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+}
+.service_ico {
+	display: block;
+	width: 26px;
+	height: 24px;
+	margin: 10px auto;
+	background: url(../images/icons.png) no-repeat;
+}
+.service_ico_huafei {
+	background-position: -17px -15px;
+}
+.service_ico_jipiao {
+	background-position: -78px -16px;
+}
+.service_ico_dianying {
+	background-position: -141px -17px;
+}
+.service_ico_youxi {
+	background-position: -207px -17px;
+}
+.service_ico_caipiao {
+	background-position: -16px -87px;
+}
+.service_ico_jiayou {
+	background-position: -77px -87px;
+}
+.service_ico_jiudian {
+	background-position: -140px -87px;
+}
+.service_ico_huoche {
+	background-position: -205px -87px;
+}
+.service_ico_zhongchou {
+	background-position: -16px -158px;
+}
+.service_ico_licai {
+	background-position: -77px -159px;
+}
+.service_ico_lipin {
+	background-position: -140px -158px;
+}
+.service_ico_baitiao {
+	background-position: -205px -158px;
+}
+.bargain {
+	height: 75px;
+	margin-top: 5px;
+}
+.hot {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 12px;
+	height: 15px;
+	background: url(../images/jian.jpg) no-repeat;
+}
+.recommend {
+	height: 163px;
+	padding-top: 10px;
+}
+.recom-hd {
+	width: 200px;
+	height: 163px;
+	background-color: #5c5251;
+	text-align: center;
+}
+.recom-hd img {
+	margin: 30px 0 10px 0;
+}
+.recom-hd h3 {
+	font-size: 18px;
+	font-weight: 400;
+	color: #fff;
+}
+.recom-bd {
+	width: 1000px;
+	height: 163px;
+	background-color: #ebebeb;
+}
+.recom-bd li {
+	float: left;
+	width: 249px;
+	height: 145px;
+	border-right: 1px solid #ccc;
+	margin-top: 10px;
+}
+.recom-bd .last {
+	border-right:0;
+}
+.box-hd {
+	height: 30px;
+	margin-top: 25px;
+	border-bottom: 2px solid #c81623;
+}
+.box-hd h3 {
+	float: left;
+	font-size: 18px;
+	color: #c81623;
+}
+.tab_list {
+	float: right;
+}
+.tab_list li {
+	float: left;
+	line-height: 30px;
+}
+.tab_list li a {
+	margin: 0 15px;
+}
+.box-bd {
+	height: 360px;
+}
+.box-bd img {
+	transition: all .5s;
+}
+.box-bd img:hover {
+	padding-left: 8px;
+}
+.tab_con li {
+	float: left;
+	height: 360px;
+	overflow: hidden;
+}
+.tab-con-item {
+	display: block;
+	border-bottom: 1px solid #ccc;
+}
+.w209 {
+	width: 209px;
+	background-color: #f9f9f9;
+}
+.w329 {
+	position: relative;
+	width: 329px;
+}
+.w219 {
+	width: 219px;
+	border-right: 1px solid #ccc;
+}
+.w220 {
+	width: 220px;
+	border-right: 1px solid #ccc;
+}
+.circle {
+	position: absolute;
+	left: 50%;
+	bottom: 15px;
+	margin-left: -21px;
+	list-style: none;
+	width: 42px;
+	height: 10px;
+	background-color: transparent;
+}
+.circle li {
+	width: 8px;
+	height: 8px;
+	border: 0;
+	background-color: #555;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.circle .current {
+	background-color: #fff;
+}
+.tab_con_list {
+	margin-bottom: 15px;
+}
+.tab_con_list li {
+	float: left;
+	width: 86px;
+	height: 32px;
+	margin-left: 10px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	line-height: 32px;
+}
+.fixedtool {
+	position: fixed;
+	top: 183px;
+	left: 50%;
+	width: 66px;
+	margin-left: -676px;
+}
+.fixedtool li {
+	height: 32px;
+	border-bottom: 1px solid #ccc;
+	font-size: 12px;
+	line-height: 32px;
+	text-align: center;
+	cursor: pointer;
+	background-color: #fff;
+}
+.fixedtool .current {
+	background-color: #c81623;
+	color: #fff;
+}
+
+
+
+
+
+
+
+
